@@ -1,0 +1,32 @@
+// Theme Name: Drupal 7 Starter Theme
+// Theme URI: http://www.THEME.com
+// Description: Drupal 7 Starter Theme for use as a starting template for building custom themes.
+// Author: Matt Banks
+// Author URI: http://www.kernelcreativemedia.com
+// License: GNU General Public License v2.0
+// License URI: http://www.gnu.org/licenses/gpl-2.0.html
+// Version: 1.0
+
+// Compass imports
+@import 'compass';
+@import 'compass/css3';
+@import 'compass/utilities/general/clearfix';
+
+// Reset, Variables, Mixins, Etc
+// DO NOT EDIT ORDER OF FILES
+@import 'base/mixins';
+@import 'base/mq';
+@import 'base/variables';
+@import 'base/normalize';
+
+// Globals
+@import 'base/global';
+
+// The layout
+@import 'layout/grid';
+@import 'layout/typography';
+
+// Page and Site Styles
+@import 'partials/page_inline';
+
+// Helper Classes, Print, Etc

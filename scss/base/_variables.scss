@@ -1,0 +1,37 @@
+// Font Face
+// @include fontface('FONT_NAME', 'assets/fonts/', 'FONT_FAMILY');
+
+// Font Variables
+$body-font:         'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Verdana, Tahoma, sans-serif;
+$navigation-font:   'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Verdana, Tahoma, sans-serif;
+$headline-font:     'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Verdana, Tahoma, sans-serif;
+$teaser-font:       'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Verdana, Tahoma, sans-serif;
+$icon:              'icons';
+
+// Structure
+$page-width: 1000px;
+
+// Text Selection
+$selection-color: #ffa500;
+
+// Shadows
+$shadow:            #777;
+$text-shadow:       #999;
+
+// Links
+$link-color: #f00;
+$link-hover-color: #00f;
+
+// Compass defaults
+$default-text-shadow-color: $text-shadow;
+$default-text-shadow-blur: 1px;
+$default-text-shadow-v-offset: 1px;
+
+$default-box-shadow-color: $shadow;
+$default-box-shadow-blur: 3px;
+$default-box-shadow-v-offset: 0;
+$default-box-shadow-h-offset: 0;
+
+$default-border-radius: 5px;
+
+// Other
